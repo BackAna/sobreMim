@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fontes/openSans)format(opentype);
+    font-weight: normal;
+}
+
+:root {
+    --corbody: #07111b;
+    --cor6: #00000086;
+    --cor7: #32434b;
+    --cor8: #3aa6f9b6;
+    --cor9: #0b1c2b;
+    --cor10: #3aa6f9;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-Exo: 'Exo', sans-serif;
+    --fonte-opensans: 'OpenSans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor9);
+    color: var(--cor10);
+    font-family: var(--fonte-opensans);
+    font-size: 18px;
+}
+
+.externo::after {
+    content: '\00A0\1F517';
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    color: var(--corbody);
+    text-shadow: 1px 1px 0px #0000007c;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--corbody);
+    color: var(--cor8);
+    transition-duration: .5s;
+}
+
+nav {
+    text-align: right;
+    height: 100px;
+}
+
+header h1 {
+    font-family: var(--fonte-Exo);
+    text-shadow: 2px 2px 0px #0000006b;
+    width: 300px;
+    text-align: right;
+    width: 230px;
+    height: 36px;
+    padding-top: 40px;
+}
+
+header {
+    background-color: var(--cor8); 
+    color: var(--corbody);
+    min-height: 120px;
+    box-shadow: 0px 10px 10px var(--cor6);
+
+}
+
+header img {
+    width: 100px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+article h1 {
+    text-align: center;
+    text-shadow: 4px 4px 0px #000;
+}
+
+p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor10);
+    background-color: var(--cor7);
+    padding: 2px 4px;
+}
+
+.textoprincipal > a:hover {
+    text-decoration: underline;
+    color: var(--corbody);
+}
+
+p {
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+main {
+    background-color: var(--corbody);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px var(--cor6);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.textoprincipal {
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+.sobremim {
+    text-align: center;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 200px;
+    filter: drop-shadow(0px 0px 15px #000)
+}
+aside {
+    text-align: center;
+}
+aside > p {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--cor8);
+    color: var(--corbody);
+}
+
+footer  p {
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+}
