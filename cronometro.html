@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cronômetro</title>
+  <link rel="stylesheet" href="estilo/index.css">
+  <link rel="stylesheet" href="estilo/cronometro.css">
+
+</head>
+<body>
+  <script src="javascript/header.js"></script>
+  <script src="javascript/cronometro.js"></script>
+  <main>
+    <article>
+      <h1>Cronômetro</h1>
+    </article>
+    <section class="tela">
+      <section class="cronometro">
+        <div class="timer" id="display">00:00:00</div>
+        <div class="buttons">
+          <button class="iniciar" onclick="startTimer()">Iniciar</button>
+          <button class="parar" onclick="stopTimer()">Parar</button>
+          <button class="zerar" onclick="resetTimer()">Zerar</button>
+          </div>
+      </section>
+    </section>
+    <section>
+      <p>
+        Esse projeto do cronômetro foi feito para praticar o JavaScript
+      </p>
+    </section>
+  </main>
+  <script src="javascript/footer.js"></script>
+</body>
+</html>
