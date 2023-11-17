@@ -1,12 +1,17 @@
 @charset "UTF-8";
 
-div {
+h1 {
+  margin-bottom: 15px;
+}
+
+/* div {
   background-color: rgb(255, 255, 255);
   width: 500px;
   height: 120px;
   margin: auto;
-}
-.tela {
+} */
+
+/* .tela {
   margin: auto;
   background-color: rgb(0, 0, 0);
   box-shadow: 15px 15px 10px #00000071;
@@ -14,7 +19,7 @@ div {
   padding: 25px 30px 25px 30px;
   width: 550px;
   border-radius: 20px;
-}
+} */
 
 .cronometro {
   text-align: center;
@@ -56,4 +61,17 @@ button {
 
 .zerar:hover {
   background-color: #444;
+}
+
+section p a:hover {
+  text-decoration: underline;
+  color: #07111b;
+}
+
+p {
+  margin-top: 50px;
+}
+
+ul {
+  margin-left: 15px;
 }
