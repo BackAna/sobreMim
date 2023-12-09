@@ -12,9 +12,9 @@
     --corbody: #07111b;
     --cor6: #00000086;
     --cor7: #32434b;
-    --cor8: #3aa6f9b6;
+    --cor8: #3aa6f9;
     --cor9: #0b1c2b;
-    --cor10: #3aa6f9;
+    --cor10: #3aa6f9b6;
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
     --fonte-Exo: 'Exo', sans-serif;
@@ -75,7 +75,9 @@ header {
     color: var(--corbody);
     min-height: 120px;
     box-shadow: 0px 10px 10px var(--cor6);
-
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 header img {
@@ -116,8 +118,9 @@ main {
     padding: 20px;
     box-shadow: 0px 0px 20px var(--cor6);
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 150px;
     border-radius: 20px;
+   
 }
 
 .textoprincipal {
