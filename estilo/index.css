@@ -37,19 +37,24 @@ body {
     content: '\00A0\1F517';
 }
 
-nav > a {
+nav a {
     text-decoration: none;
-    padding: 10px;
+    padding: 3px;
     font-weight: bold;
     color: var(--corbody);
-    text-shadow: 1px 1px 0px #0000007c;
+    text-shadow: 1px 1px 0px #00000052;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-right: 1px;
-    border-radius: 5px;
+    margin-right: 1.5px;
+    border-radius: 3px;
 }
 
-nav > a:hover {
+li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+nav a:hover {
     background-color: var(--corbody);
     color: var(--cor8);
     transition-duration: .5s;
@@ -57,16 +62,27 @@ nav > a:hover {
 
 nav {
     text-align: right;
-    height: 100px;
+}
+
+.material-icons {
+    margin-left: 400px;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.material-icons:hover {
+    background-color: var(--corbody);
+    color: var(--cor8);
+    transition-duration: .5s;
 }
 
 header h1 {
     font-family: var(--fonte-Exo);
     text-shadow: 2px 2px 0px #0000006b;
     width: 300px;
-    text-align: right;
-    width: 230px;
     height: 36px;
+    text-align: right;
     padding-top: 40px;
 }
 
@@ -74,6 +90,7 @@ header {
     background-color: var(--cor8); 
     color: var(--corbody);
     min-height: 120px;
+    height: 135px;
     box-shadow: 0px 10px 10px var(--cor6);
     width: 100%;
     position: fixed;
@@ -92,7 +109,7 @@ article h1 {
     text-shadow: 4px 4px 0px #000;
 }
 
-p > a {
+p a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor10);
@@ -113,7 +130,7 @@ p {
 main {
     background-color: var(--corbody);
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding: 20px;
     box-shadow: 0px 0px 20px var(--cor6);
