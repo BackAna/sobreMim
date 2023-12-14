@@ -62,6 +62,7 @@ nav a:hover {
 
 nav {
     text-align: right;
+    display: none;
 }
 
 #burguer {
