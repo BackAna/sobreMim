@@ -64,8 +64,19 @@ nav {
     text-align: right;
 }
 
+#burguer {
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#burguer:hover {
+    background-color: var(--cor10);
+    color: var(--corbody);
+}
+
 .material-icons {
-    margin-left: 350px;
+    /* margin-left: 350px; */
     display: block;
     cursor: pointer;
     border-radius: 5px;
