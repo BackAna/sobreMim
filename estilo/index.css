@@ -72,8 +72,9 @@ nav {
 }
 
 #burguer:hover {
-    background-color: var(--cor10);
-    color: var(--corbody);
+    background-color: var(--corbody);
+    color: var(--cor8);
+    transition-duration: .5s;
 }
 
 .material-icons {
