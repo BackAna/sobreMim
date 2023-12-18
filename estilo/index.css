@@ -51,12 +51,12 @@ nav a {
 
 ul {
     background-color: var(--cor7);
-    width: 25vw;
+    width: 40vw;
     text-align: center;
 }
 
 li {
-    font-size: 15px;
+    font-size: 25px;
     border-top: 1px solid var(--cor10);
 }
 

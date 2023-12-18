@@ -33,6 +33,10 @@ Grandes telas: acima de 1200px
         display: block;
     }
 
+    nav a {
+        margin-right: 15px;
+    }
+
     nav a:hover {
         background-color: var(--corbody);
     }
