@@ -49,13 +49,13 @@ nav a {
     border-radius: 3px;
 }
 
-ul {
+nav ul {
     background-color: var(--cor7);
     width: 40vw;
     text-align: center;
 }
 
-li {
+nav li {
     font-size: 25px;
     border-top: 1px solid var(--cor10);
     padding: 10px;
