@@ -49,13 +49,18 @@ nav a {
     border-radius: 3px;
 }
 
+ul {
+    background-color: var(--cor7);
+    width: 25vw;
+    text-align: center;
+}
+
 li {
-    display: inline-block;
     font-size: 15px;
+    border-top: 1px solid var(--cor10);
 }
 
 nav a:hover {
-    background-color: var(--corbody);
     color: var(--cor8);
     transition-duration: .5s;
 }

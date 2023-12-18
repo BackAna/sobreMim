@@ -10,6 +10,18 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
  */
 
+ :root {
+    --corbody: #07111b;
+    --cor6: #00000086;
+    --cor7: #32434b;
+    --cor8: #3aa6f9;
+    --cor9: #0b1c2b;
+    --cor10: #3aa6f9b6;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-Exo: 'Exo', sans-serif;
+    --fonte-opensans: 'OpenSans', sans-serif;
+}
 
  @media screen and (min-width: 768px) {
     
@@ -21,9 +33,20 @@ Grandes telas: acima de 1200px
         display: block;
     }
 
+    nav a:hover {
+        background-color: var(--corbody);
+    }
+
+    ul {
+        background-color: var(--cor10);
+        width: 100vw;
+        text-align: right;
+    }
+
     li {
         font-weight: bold;
         font-size: 18px;
+        display: inline-block;
     }
 
     main {
