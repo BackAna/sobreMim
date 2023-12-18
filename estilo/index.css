@@ -58,6 +58,7 @@ ul {
 li {
     font-size: 25px;
     border-top: 1px solid var(--cor10);
+    padding: 10px;
 }
 
 nav a:hover {
