@@ -24,6 +24,8 @@ Grandes telas: acima de 1200px
 }
 
  @media screen and (min-width: 768px) {
+
+    /* --------------------menu navegação------------------------------ */
     
     #burguer {
         display: none;
@@ -58,9 +60,14 @@ Grandes telas: acima de 1200px
         width: 768px;
     }
 
+        /* ---------------Página cronômetro ----------------- */
+
     .timer {
-        /* font-size: ; */
-        color: #3aa6f9;
+        font-size: 150px;
     }
+
+    button {
+        padding: 10px 15px;
+      }
 
  }

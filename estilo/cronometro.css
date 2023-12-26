@@ -22,36 +22,36 @@ h1 {
 
 button {
   color: #fff;
-  font-size: 20px;
-  padding: 5px;
+  padding: 5px 7px;
   margin: 5px;
+  width: 100px;
   border-radius: 10px;
   border: 1px solid #000000;
   box-shadow: 2px 2px 5px #000000b6;
 }
 
-.iniciar {
+.play {
   background-color: #006400c4;
 }
 
-.parar {
-  background-color: #ff0000c4;
-}
-
-.zerar {
+.pause {
   background-color: #555555be;
 }
 
-.iniciar:hover {
+.stop {
+  background-color: #ff0000c4;
+}
+
+.play:hover {
   background-color: darkgreen;
 }
 
-.parar:hover {
-  background-color: #ff0000;
+.pause:hover {
+  background-color: #555555;
 }
 
-.zerar:hover {
-  background-color: #555555;
+.stop:hover {
+  background-color: #ff0000;
 }
 
 section p a:hover {
