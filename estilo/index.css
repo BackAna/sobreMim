@@ -165,11 +165,12 @@ main {
     text-align: center;
 }
 
-.foto {
+source {
     border-radius: 50%;
-    width: 200px;
+    width: 100px;
     filter: drop-shadow(0px 0px 15px #000);
 }
+
 aside {
     text-align: center;
 }

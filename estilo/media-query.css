@@ -60,6 +60,12 @@ Grandes telas: acima de 1200px
         width: 768px;
     }
 
+    .foto {
+        border-radius: 50%;
+        width: 200px;
+        filter: drop-shadow(0px 0px 15px #000);
+    }
+
         /* ---------------Página cronômetro ----------------- */
 
     .timer {
