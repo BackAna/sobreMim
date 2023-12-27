@@ -165,9 +165,11 @@ main {
     text-align: center;
 }
 
-source {
+.fotom {
     border-radius: 50%;
     width: 100px;
+    height: 100px;
+    overflow: hidden;
     filter: drop-shadow(0px 0px 15px #000);
 }
 
