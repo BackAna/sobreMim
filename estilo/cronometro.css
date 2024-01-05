@@ -45,14 +45,17 @@ button {
 
 .play:hover {
   background-color: darkgreen;
+  cursor: pointer;
 }
 
 .pause:hover {
   background-color: #555555;
+  cursor: pointer;
 }
 
 .stop:hover {
   background-color: #ff0000;
+  cursor: pointer;
 }
 
 section p a:hover {
