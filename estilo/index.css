@@ -9,6 +9,7 @@
 }
 
 :root {
+    --corbody2:#07111bec;
     --corbody: #07111b;
     --cor6: #00000086;
     --cor7: #32434b;
@@ -31,6 +32,15 @@ body {
     color: var(--cor10);
     font-family: var(--fonte-opensans);
     font-size: 18px;
+    /* opacity: 0.9; */
+}
+
+#imgprincipal {
+    background-image: url(../imagens/artificialIntelligence1280.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
 }
 
 .externo::after {
@@ -144,7 +154,7 @@ p {
 }
 
 main {
-    background-color: var(--corbody);
+    background-color: var(--corbody2);
     min-width: 300px;
     max-width: 900px;
     margin: auto;
@@ -153,7 +163,6 @@ main {
     margin-bottom: 30px;
     margin-top: 180px;
     border-radius: 20px;
-   
 }
 
 .textoprincipal {
